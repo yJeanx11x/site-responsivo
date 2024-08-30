@@ -1,0 +1,24 @@
+.contener{
+        display: flex;
+        flex-wrap: wrap;
+}
+.vermelho,.verde,.azul,.preto{
+width: 150px;
+height: 150px;
+flex-grow: 1;
+margin: 5px;
+flex-basis: 200;
+}
+.vermelho{
+        background-color: red;
+
+}
+.verde{
+        background-color: green
+}
+.azul{
+        background-color: blue;
+}
+.preto{
+        background-color: black;
+}
